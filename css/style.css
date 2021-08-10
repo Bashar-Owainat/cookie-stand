@@ -1,0 +1,45 @@
+table,
+th,
+td {
+  border: 2px solid red;
+}
+header{
+  outline-style: groove;
+  outline-color: black;
+  outline-width: 10px;
+}
+div{
+  display: inline-block;
+  position: relative;
+  left: 150px;
+  padding: 30px;
+  
+  
+}
+h3{
+  padding: 50px;
+  font-size: large;
+ 
+}
+h1{
+  padding: 50px;
+  font-size: 30px;
+  color: black;
+}
+
+img{
+  outline-style:groove;
+  outline-color: black;
+  outline-width: 2px;
+}
+li{
+  padding: 50px;
+  outline-style:groove;
+  outline-color: black;
+  outline-width: 10px;
+}
+footer{
+  outline-style:groove;
+  outline-color: black;
+  outline-width: 10px;
+}
