@@ -9,13 +9,38 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav><ul>
+            <li><a href="index.html">HOME</a></li>
+        </ul></nav>
+    </header>
     <main>
         <div id="container"></div>
         <div id="container1"></div>
         <div id="container2"></div>
         <div id="container3"></div>
         <div id="container4"></div>
+        
+        <form id="info" action="">
+            <fieldset>
+                <legend>
+                    <h3>city branch</h3>
+                </legend>
+                <label for="cityName">City Name</label>
+                <input type="text" name="cityName" id="cityName" required/>
+                
+                <label for="minCust">min cust</label>
+                <input type="number" name="minCust" id="minCust" required/>
+                <br>
+                <br>
+                <label for="maxCust">max cust</label>
+                <input type="number" name="maxCust" id="maxCust" required/>
+                
+                <label for="avgCookieSale"> Avg cookie sale</label>
+                <input type="number"  name="avgCookieSale" id="avgCookieSale" required/>
+                <input type="submit"/>
+            </fieldset>
+        </form>
     </main>
     <footer></footer>
 </body>

@@ -3,6 +3,10 @@ th,
 td {
   border: 2px solid red;
 }
+table tr th{
+  background-color:cadetblue;
+  
+}
 header{
   outline-style: groove;
   outline-color: black;
@@ -15,6 +19,9 @@ div{
   padding: 30px;
   
   
+}
+main{
+  padding: 100px;
 }
 h3{
   padding: 50px;
@@ -43,3 +50,4 @@ footer{
   outline-color: black;
   outline-width: 10px;
 }
+
