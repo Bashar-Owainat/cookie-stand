@@ -15,7 +15,7 @@ header{
 div{
   display: inline-block;
   position: relative;
-  left: 150px;
+  left: 20px;
   padding: 30px;
   
   
@@ -41,7 +41,7 @@ h1{
 img{
   outline-style:groove;
   outline-color: black;
-  outline-width: 5px;
+  outline-width: 3px;
 }
 li{
   padding: 50px;
