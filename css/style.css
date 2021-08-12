@@ -1,10 +1,10 @@
 table,
 th,
 td {
-  border: 2px solid red;
+  border: 2px solid rgb(8, 8, 8);
 }
 table tr th{
-  background-color:cadetblue;
+  background-color:rgb(103, 192, 125);
   
 }
 header{
@@ -26,18 +26,22 @@ main{
 h3{
   padding: 50px;
   font-size: large;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
  
 }
 h1{
   padding: 50px;
   font-size: 30px;
   color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 img{
   outline-style:groove;
   outline-color: black;
-  outline-width: 2px;
+  outline-width: 5px;
 }
 li{
   padding: 50px;
@@ -49,5 +53,8 @@ footer{
   outline-style:groove;
   outline-color: black;
   outline-width: 10px;
+}
+body{
+  background-color: rgb(196, 217, 255);
 }
 
