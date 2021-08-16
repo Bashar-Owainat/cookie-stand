@@ -8,6 +8,7 @@ let container = document.getElementById('container');
 let tableEl = document.createElement('table');
 container.appendChild(tableEl);
 let cities = [];
+let rowCount = tableEl.rows.length;
 
 
 function City(cityName, minCust, maxCust, avgCookieSale) {
@@ -139,8 +140,7 @@ lami.randomAvgCust();
 lami.avgCookies();
 lami.render();
 
-
-
+createFooter();
 let info = document.getElementById('info');
 info.addEventListener('submit', addBranch);
 function addBranch(event){
@@ -153,8 +153,11 @@ function addBranch(event){
     let newBranch = new City(cityName, minCust, maxCust, avgCookieSale);
     newBranch.randomAvgCust();
     newBranch.avgCookies();
+    tableEl.deleteRow(rowCount -1);
     newBranch.render();
     createFooter();
+    
 }
-createFooter();
+
+
 
